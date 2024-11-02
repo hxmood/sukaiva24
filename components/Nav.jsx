@@ -26,7 +26,7 @@ const Nav = () => {
             <Link href="/" className=''>Home</Link>
             <Link href="/" className=''>About</Link>
             <Link href="/register" className=''>register</Link>
-            <Link href="/result" className='bg-white px-4 py-2 rounded-lg'>Results</Link>
+            <Link href="/result" className='bg-green-600 text-white px-4 py-2 rounded-lg'>Results</Link>
           </ul>
 
           <div className='md:hidden'>
