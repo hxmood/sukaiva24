@@ -51,19 +51,39 @@ const page = () => {
 
   return (
     <div className=" text-[#202e55e0] ">
-      <div className="w-full h-[87vh] px-6 md:px-8 lg:px-24 xl:px-36 flex">
-        <div className="basis-1/2 bg-green-200 p-4 flex items-center justify-center flex-col">
+      <div className="w-full h-[88vh] bg-[#fff9e3]">
+        <div className="px-6 md:px-8 lg:px-24 xl:px-36 w-full flex h-full gap-4">
+          <div className="basis-1/2 h-full flex justify-center items-center">
+            <div className="">
+            <h1 className="text-5xl font-bold">Suffa Mehfil 2k24</h1>
+            <h1 className="text-3xl">Sukaiva</h1>
+            <h1 className="">the literary festival of Ahlussuffa</h1>
+            </div>
+            
+          </div>
+
+          <div className="basis-1/2 h-full">
+            
+          </div>
+        </div>
+        
+      </div>
+      {/* <div className="w-full h-[87vh] bg-[#fff9ed] flex">
+        <div className="px-6 md:px-8 lg:px-24 xl:px-36 w-full">
+        <div className="basis-1/2 p-4">
         <div>
           <h1 className="text-5xl font-bold">Suffa Mehfil 2k24</h1>
           <h1 className="text-3xl">Sukaiva</h1>
           <h1 className="">the literary festival of Ahlussuffa</h1>
-        </div>
-          
+        </div>          
         </div>
         <div className="basis-1/2 bg-green-500">
-        {/* <Image src={}/> */}
+        <Image src={}/>
         </div>
-      </div>
+        </div> */}
+        
+       
+      {/* </div> */}
       {/* <div className="px-5 md:px-10 lg:px-10 xl:px-36 relative text-center w-full h-screen flex flex-col gap-5 items-center justify-center mt-10 animated">
         <h1 className="flex flex-col text-center gap-1 xl:gap-2">
           <span className="text-[#3333cc] font-extrabold text-5xl lg:text-6xl xl:text-8xl">
