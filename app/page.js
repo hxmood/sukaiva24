@@ -1,4 +1,5 @@
 "use client";
+import { FaYoutube,FaGlobe } from "react-icons/fa";
 
 import React, { useEffect, useState } from "react";
 import "@/styles/global.css";
@@ -6,6 +7,7 @@ import { Facebook, Instagram, Language, YouTube } from "@mui/icons-material";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import ScrollToTop from "react-scroll-to-top";
 import Image from "next/image";
+import Link from "next/link";
 
 const page = () => {
   const [totalPoints, setTotalPoints] = useState(null);
@@ -50,20 +52,32 @@ const page = () => {
   };
 
   return (
-    <div className=" text-[#202e55e0] ">
-      <div className="w-full h-[88vh] bg-[#fff9e3]">
-        <div className="px-6 md:px-8 lg:px-24 xl:px-36 w-full flex h-full gap-4">
-          <div className="basis-1/2 h-full flex justify-center items-center">
-            <div className="">
-            <h1 className="text-5xl font-bold">Suffa Mehfil 2k24</h1>
-            <h1 className="text-3xl">Sukaiva</h1>
-            <h1 className="">the literary festival of Ahlussuffa</h1>
+    <div className=" ">
+      <div className="w-full h-[88vh] ">
+        <div className="px-6 md:px-8 lg:px-24 xl:px-36 w-full flex md:flex-row  flex-col h-full gap-4 relative items-center">
+          <div className="basis-1/2 h-full flex  items-center ">
+            <div className=" flex flex-col text-center md:text-start justify-center md:justify-start ">
+            <h1 className="text-[3rem] md:text-[4rem] uppercase font-bold">Sukaiva</h1>
+            <p className="font-semibold text-[1.5rem] -mt-5">Suffa Mehfil 2k24  </p>
+            <div className="flex gap-2 pt-2">
+              <div className="flex items-center p-1.5 px-2.5 bg-green-700 text-white font-semibold rounded-md gap-1 text-base">
+              <FaYoutube />
+              <Link className="" href={''}>Watch live</Link>
+              </div>
+              <div className="flex items-center p-1.5 px-2.5 bg-green-700 text-white font-semibold rounded-md gap-1 text-base">
+              <FaGlobe />
+              <Link className="" href={''}>Explore us</Link>
+              </div>
+              
+
+            </div>
             </div>
             
           </div>
 
           <div className="basis-1/2 h-full">
-            
+            <Image  src={'https://res.cloudinary.com/dc9tcbi7s/image/upload/v1730566384/web_clgssl.png'}  width={0} height={0} sizes="100vw" 
+            className="p-4 w-fit h-full" />
           </div>
         </div>
         
@@ -118,12 +132,12 @@ const page = () => {
 
       <section id="teamStats" className="px-5 md:px-10 lg:px-10 xl:px-36 flex flex-col w-full justify-center items-center relative">
         <div className=" flex w-full flex-col mt-8">
-          <h1 className="text-center text-[#1d2c55] font-bold text-3xl xl:text-4xl ">
+          <h1 className="text-center  font-bold text-3xl xl:text-4xl ">
             Team Status
           </h1>
           {after.map(item => (
 
-            <h1 className="text-md text-gray-400 text-center">After <span>#{item.after}</span></h1>
+            <h1 className="text-2xl text-gray-400 text-center">After <span>#{item.after}</span></h1>
           ))
           }
           </div>
@@ -208,6 +222,8 @@ const page = () => {
         width="20"
         className="flex items-center justify-center z-50"
       />
+
+      
     </div>
   );
 };
