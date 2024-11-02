@@ -1,0 +1,43 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@headlessui/react": "^1.7.17",
+    "@mui/icons-material": "^5.14.8",
+    "@mui/material": "^5.14.8",
+    "@nextui-org/react": "^2.2.8",
+    "@vercel/analytics": "^1.1.1",
+    "aos": "^3.0.0-beta.6",
+    "axios": "^1.7.7",
+    "bcryptjs": "^2.4.3",
+    "firebase": "^10.4.0",
+    "font-awesome-icons": "^1.6.0",
+    "framer-motion": "^10.16.4",
+    "mongodb": "^6.0.0",
+    "mongoose": "^7.5.0",
+    "next": "^13.4.19",
+    "next-auth": "^4.24.4",
+    "node-fetch": "^3.3.2",
+    "postcss": "^8.4.31",
+    "react": "^18.2.0",
+    "react-confetti": "^6.1.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
+    "react-scroll-to-top": "^3.0.0",
+    "tailwindcss": "3.3.3",
+    "uuid": "^9.0.1",
+    "vercel": "^32.3.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.15"
+  }
+}
