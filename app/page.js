@@ -61,7 +61,7 @@ const page = () => {
           
         </div>
         <div className="basis-1/2 bg-green-500">
-        <Image src={}/>
+        {/* <Image src={}/> */}
         </div>
       </div>
       {/* <div className="px-5 md:px-10 lg:px-10 xl:px-36 relative text-center w-full h-screen flex flex-col gap-5 items-center justify-center mt-10 animated">
