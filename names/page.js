@@ -51,7 +51,7 @@ export const names = {
     "MUBASHIR",
     "FAVAS",
     "AMEEN THAHOOR",
-    "SWALIH",
+    "SWALIH NP",
     "MISHAB TLSY",
     "S.KHUBAB",
     "FARHAN",
