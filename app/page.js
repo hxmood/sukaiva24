@@ -75,7 +75,7 @@ const page = () => {
             
           </div>
 
-          <div className=" h-full">
+          <div className="flex-1 h-full">
             <Image  src={'https://res.cloudinary.com/dc9tcbi7s/image/upload/v1730566384/web_clgssl.png'}  width={0} height={0} sizes="100vw" 
             className="p-4 w-fit h-full" />
           </div>
