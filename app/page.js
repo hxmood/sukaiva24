@@ -39,7 +39,7 @@ const page = () => {
     afterPoints()
   }, []);
 
-  console.log(after);
+  // console.log(after);
 
   const sorted3Teams = totalPoints
     ? Object.entries(totalPoints).sort(([, a], [, b]) => b - a)
@@ -53,7 +53,7 @@ const page = () => {
 
   return (
     <div className=" ">
-      <div className="w-full h-[88vh] ">
+      <div className="w-full h-[88vh] pb-6 ">
         <div className="px-6 md:px-8 lg:px-24 xl:px-36 w-full flex md:flex-row mt-8 md:mt-4 lg:mt-2 flex-col h-full gap-4 relative items-center">
           <div className="basis-1/2 h-full flex  items-center ">
             <div className=" flex flex-col text-center md:text-start justify-center md:justify-start ">
@@ -75,7 +75,7 @@ const page = () => {
             
           </div>
 
-          <div className="basis-1/2 h-full py-2 lg:py-8">
+          <div className=" h-full">
             <Image  src={'https://res.cloudinary.com/dc9tcbi7s/image/upload/v1730566384/web_clgssl.png'}  width={0} height={0} sizes="100vw" 
             className="p-4 w-fit h-full" />
           </div>
@@ -153,7 +153,7 @@ const page = () => {
               {sorted3Teams.map(([team, points]) => (
                 <>
                 <div
-                  className={`w-full backdrop-blur-sm bg-opacity-90 max-sm:w-full p-4 flex flex-col md:flex-row gap-4  items-end justify-center rounded-lg drop-shadow-md shadow-lg ${teamColors[team]}`}>
+                  className={`w-full backdrop-blur-sm bg-opacity-90 max-sm:w-full p-4 flex flex-col md:flex-row gap-4  items-center justify-center rounded-lg drop-shadow-md shadow-lg ${teamColors[team]}`}>
                   <h1 className="text-4xl font-bold">{points}</h1>
                   <p className="font-medium text-2xl ">{team}</p>
                 </div>
