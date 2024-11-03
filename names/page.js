@@ -97,7 +97,7 @@ export const names = {
     "AMEEN",
     "SAHAD",
     "ZIYAD",
-    "UNAIS",
+    "UNAIS NIZAR",
     "JUNAID KPM",
     "ASLAM KDY",
     "MUHAMMAD ALI PYNR",
