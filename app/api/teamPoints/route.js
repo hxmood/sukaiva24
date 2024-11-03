@@ -12,9 +12,9 @@ export const GET = async(req) => {
         const results = await resultModels.find({})
 
         const totalPoints = {
-            "Team A": 0,
-            "Team B" : 0,
-            "Team C" : 0
+            "De Zegians": 0,
+            "Le Hegians" : 0,
+            "En Shugians" : 0
         }
 
             results.forEach((result) => {

@@ -104,7 +104,7 @@ const page = () => {
         </form>
         {results && (
   <>
-    <div className="w-full grid grid-cols-1 lg:grid-cols-3 gap-5 mt-12 bg-green-100 p-4 rounded-md">
+    <div className="w-full grid grid-cols-1 lg:grid-cols-3 gap-5 mt-12 bg-green-100 p-4 rounded-md mb-6">
       {/* First Place */}
       {results.first ? (
         <div className="flex justify-between items-center border-l-4 px-4">
@@ -118,7 +118,7 @@ const page = () => {
           </div>
           {/* <h1>{results.first.marks}</h1> */}
         </div>
-      ): <p className='text-center w-full flex justify-center'>Result is not uploaded yet or you haven't selected your need properly </p> }
+      ): <p className='text-center w-full flex justify-center '>Result is not uploaded yet or you haven't selected your need properly </p> }
 
       {/* Second Place */}
       {results.second && (

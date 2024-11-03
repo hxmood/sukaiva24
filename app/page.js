@@ -54,15 +54,15 @@ const page = () => {
   return (
     <div className=" ">
       <div className="w-full h-[88vh] ">
-        <div className="px-6 md:px-8 lg:px-24 xl:px-36 w-full flex md:flex-row  flex-col h-full gap-4 relative items-center">
+        <div className="px-6 md:px-8 lg:px-24 xl:px-36 w-full flex md:flex-row mt-8 md:mt-4 lg:mt-2 flex-col h-full gap-4 relative items-center">
           <div className="basis-1/2 h-full flex  items-center ">
             <div className=" flex flex-col text-center md:text-start justify-center md:justify-start ">
-            <h1 className="text-[3rem] md:text-[4rem] uppercase font-bold">Sukaiva</h1>
-            <p className="font-semibold text-[1.5rem] -mt-5">Suffa Mehfil 2k24  </p>
-            <div className="flex gap-2 pt-2">
+            <h1 className="text-5xl md:text-[4rem] uppercase font-bold">Sukaiva</h1>
+            <p className="font-semibold text-[1.5rem] text-gray-800">Suffa Mehfil 2k24  </p>
+            <div className="flex gap-2 pt-2 mt-4">
               <div className="flex items-center p-1.5 px-2.5 bg-green-700 text-white font-semibold rounded-md gap-1 text-base">
               <FaYoutube />
-              <Link className="" href={''}>Watch live</Link>
+              <Link className="" href="https://www.youtube.com/live/aTisNojTWKQ?si=NjG9gtivMATIqEfY">Watch live</Link>
               </div>
               <div className="flex items-center p-1.5 px-2.5 bg-green-700 text-white font-semibold rounded-md gap-1 text-base">
               <FaGlobe />
@@ -75,7 +75,7 @@ const page = () => {
             
           </div>
 
-          <div className="basis-1/2 h-full">
+          <div className="basis-1/2 h-full py-2 lg:py-8">
             <Image  src={'https://res.cloudinary.com/dc9tcbi7s/image/upload/v1730566384/web_clgssl.png'}  width={0} height={0} sizes="100vw" 
             className="p-4 w-fit h-full" />
           </div>
