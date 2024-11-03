@@ -60,9 +60,9 @@ const page = () => {
   const sortedTeams = totalPoints ? Object.entries(totalPoints).sort(([, a], [, b]) => b - a): [];
   
   const teamColors = {
-    "Team A": "text-blue-700",
-    "Team B": "text-green-700",
-    "Team C": "text-red-700",
+    "De Zegians": "text-blue-700",
+    "Le Hegians": "text-green-700",
+    "En Shugians": "text-red-700",
   };
 
   return (

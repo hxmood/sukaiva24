@@ -32,9 +32,9 @@ const page = () => {
     ? Object.entries(totalPoints).sort(([, a], [, b]) => b - a)
     : [];
   const teamColors = {
-    "Legacy Legends": "text-blue-700",
-    "Ancient Alliance": "text-green-700",
-    "Traditional Trackers": "text-red-700",
+    "De Zegians": "text-blue-700",
+    "Le Hegians": "text-green-700",
+    "En Shugians": "text-red-700",
   };
 
   const handleUpdate = async (e) => {
