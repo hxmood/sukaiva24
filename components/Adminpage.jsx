@@ -219,11 +219,11 @@ export const Adminpage = () => {
                       className="w-full p-2 rounded border border-gray-300"
                     >
                       <option>Select team</option>
-                      <option value="Team A">
-                        Team A
+                      <option value="De Zegians">
+                      De zegians
                       </option>
-                      <option value="Team B">Team B</option>
-                      <option value="Team C">Team C</option>
+                      <option value="Le Hegiasns">Le Hegiasns</option>
+                      <option value="En Shugians">En Shugians</option>
                       <option value="-">-</option>
                     </select>
                   </div>
@@ -304,11 +304,11 @@ export const Adminpage = () => {
                       className="w-full p-2 rounded border border-gray-300"
                     >
                       <option>Select team</option>
-                      <option value="Team A">
-                        Team A
+                      <option value="De Zegians">
+                      De Zegians
                       </option>
-                      <option value="Team B">Team B</option>
-                      <option value="Team C">Team C</option>
+                      <option value="Le Hegiasns">Le Hegiasns</option>
+                      <option value="En Shugians">En Shugians</option>
                       <option value="-">-</option>
                     </select>
                   </div>
@@ -389,11 +389,11 @@ export const Adminpage = () => {
                       className="w-full p-2 rounded border border-gray-300"
                     >
                       <option>Select team</option>
-                      <option value="Team A">
-                        Team A
+                      <option value="De Zegians">
+                        De Zegians
                       </option>
-                      <option value="Team B">Team B</option>
-                      <option value="Team C">Team C</option>
+                      <option value="Le Hegiasns">Le Hegiasns</option>
+                      <option value="En Shugians">En Shugians</option>
                       <option value="-">-</option>
                     </select>
                   </div>
@@ -467,12 +467,12 @@ export const Adminpage = () => {
                           onChange={(e) => handleChange(index, e)}
                         >
                           <option>Select Team</option>
-                          <option value="Team A">
-                            Team A
+                          <option value="De Zegians">
+                          De Zegians
                           </option>
-                          <option value="Team B">Team B</option>
-                          <option value="Team C">
-                            Team C
+                          <option value="Le Hegiasns">Le Hegiasns</option>
+                          <option value="En Shugians">
+                          En Shugians
                           </option>
                         </select>
                       </div>
@@ -602,11 +602,11 @@ export const Adminpage = () => {
                       className="w-full p-2 rounded border border-gray-300"
                     >
                       <option>Select team</option>
-                      <option value="Team A">
-                        Team A
+                      <option value="De Zegians">
+                      De Zegians
                       </option>
-                      <option value="Team B">Team B</option>
-                      <option value="Team C">Team C</option>
+                      <option value="Le Hegiasns">Le Hegiasns</option>
+                      <option value="En Shugians">En Shugians</option>
                       <option value="-">-</option>
                     </select>
                   </div>
@@ -680,11 +680,11 @@ export const Adminpage = () => {
                       className="w-full p-2 rounded border border-gray-300"
                     >
                       <option>Select team</option>
-                      <option value="Team A">
-                        Team A
+                      <option value="De Zegians">
+                      De Zegians
                       </option>
-                      <option value="Team B">Team B</option>
-                      <option value="Team C">Team C</option>
+                      <option value="Le Hegiasns">Le Hegiasns</option>
+                      <option value="En Shugians">En Shugians</option>
                       <option value="-">-</option>
                     </select>
                   </div>
@@ -758,11 +758,11 @@ export const Adminpage = () => {
                       className="w-full p-2 rounded border border-gray-300"
                     >
                       <option>Select team</option>
-                      <option value="Team A">
-                        Team A
+                      <option value="De Zegians">
+                        De Zegians
                       </option>
-                      <option value="Team B">Team B</option>
-                      <option value="Team C">Team C</option>
+                      <option value="Le Hegiasns">Le Hegiasns</option>
+                      <option value="En Shugians">En Shugians</option>
                       <option value="-">-</option>
                     </select>
                   </div>
@@ -828,11 +828,11 @@ export const Adminpage = () => {
                           onChange={(e) => handleChange(index, e)}
                         >
                           <option>Select Team</option>
-                          <option value="Team A">
-                            Team A
+                          <option value="De Zegians">
+                            De Zegians
                           </option>
-                          <option value="Team B">Team B</option>
-                          <option value="Team C">Team C</option>
+                          <option value="Le Hegiasns">Le Hegiasns</option>
+                          <option value="En Shugians">En Shugians</option>
                         </select>
                       </div>
                       <div className="col-span-1 relative">

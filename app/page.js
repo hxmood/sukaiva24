@@ -41,14 +41,14 @@ const page = () => {
 
   console.log(after);
 
-  const sortedTeams = totalPoints
+  const sorted3Teams = totalPoints
     ? Object.entries(totalPoints).sort(([, a], [, b]) => b - a)
     : [];
 
   const teamColors = {
-    "Team A": "text-blue-700",
-    "Team B": "text-green-700 ",
-    "Team C": "text-red-700",
+    "De zegians": "bg-blue-700",
+    "Le hegians": "bg-yellow-700 ",
+    "En shugians": "bg-red-700",
   };
 
   return (
@@ -130,7 +130,7 @@ const page = () => {
         </div>
       </div> */}
 
-      <section id="teamStats" className="px-5 md:px-10 lg:px-10 xl:px-36 flex flex-col w-full justify-center items-center relative">
+      <section id="teamStats" className="px-5 md:px-10 lg:px-10 xl:px-36 flex flex-col w-full justify-center items-center relative bg-green-50">
         <div className=" flex w-full flex-col mt-8">
           <h1 className="text-center  font-bold text-3xl xl:text-4xl ">
             Team Status
@@ -142,7 +142,7 @@ const page = () => {
           }
           </div>
           <div className="w-full flex flex-col gap-y-4 mt-6">
-          {!sortedTeams.length ? (
+          {!sorted3Teams.length ? (
             <div className="flex flex-col gap-4">
               <div className="w-full h-24 rounded-md  bg-gray-50 animate-pulse"></div>
               <div className="w-full h-24 rounded-md  bg-gray-50 animate-pulse"></div>
@@ -150,11 +150,11 @@ const page = () => {
             </div>
           ) : (
             <>
-              {sortedTeams.map(([team, points]) => (
+              {sorted3Teams.map(([team, points]) => (
                 <>
                 <div
-                  className={`w-full backdrop-blur-sm bg-opacity-90 bg-white max-sm:w-full p-4 flex flex-col  items-center justify-center rounded-lg drop-shadow-md shadow-lg ${teamColors[team]}`}>
-                  <h1 className="text-3xl text-gray-800 font-bold">{points}</h1>
+                  className={`w-full backdrop-blur-sm bg-opacity-90 max-sm:w-full p-4 flex flex-col md:flex-ro  items-center justify-center rounded-lg drop-shadow-md shadow-lg ${teamColors[team]}`}>
+                  <h1 className="text-3xl font-bold">{points}</h1>
                   <p className="font-medium text-base ">{team}</p>
                 </div>
                 </>
