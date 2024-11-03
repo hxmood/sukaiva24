@@ -23,7 +23,7 @@ const Nav = () => {
           <Image src={logo} width={50}/>
           <p className='max-w-[1rem] font-medium text-xs leading-3 '>Ahlussuffa Literary Festival</p>
         </Link>
-          <ul className='hidden md:flex md:gap-8 text-lg items-center'>
+          <ul className='hidden md:flex md:gap-8 text-base font-semibold items-center'>
             <Link href="/" className=''>Home</Link>
             <Link href="/about" className=''>About</Link>
             {/* <Link href="/register" className=''>register</Link> */}
