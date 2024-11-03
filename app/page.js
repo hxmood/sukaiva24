@@ -130,18 +130,18 @@ const page = () => {
         </div>
       </div> */}
 
-      <section id="teamStats" className="px-5 md:px-10 lg:px-10 xl:px-36 flex flex-col w-full justify-center items-center relative bg-green-50">
+      <section id="teamStats" className="px-5 md:px-10 lg:px-10 xl:px-36 flex flex-col w-full justify-center items-center relative bg-green-700 text-white">
         <div className=" flex w-full flex-col mt-8">
           <h1 className="text-center  font-bold text-3xl xl:text-4xl ">
             Team Status
           </h1>
           {after.map(item => (
 
-            <h1 className="text-2xl text-gray-400 text-center">After <span>#{item.after}</span></h1>
+            <h1 className="text-2xl text-center">After <span>#{item.after}</span></h1>
           ))
           }
           </div>
-          <div className="w-full flex flex-col gap-y-4 mt-6">
+          <div className="w-full flex md:flex-row flex-col gap-4 mt-6 pb-10">
           {!sorted3Teams.length ? (
             <div className="flex flex-col gap-4">
               <div className="w-full h-24 rounded-md  bg-gray-50 animate-pulse"></div>
@@ -153,9 +153,9 @@ const page = () => {
               {sorted3Teams.map(([team, points]) => (
                 <>
                 <div
-                  className={`w-full backdrop-blur-sm bg-opacity-90 max-sm:w-full p-4 flex flex-col md:flex-ro  items-center justify-center rounded-lg drop-shadow-md shadow-lg ${teamColors[team]}`}>
-                  <h1 className="text-3xl font-bold">{points}</h1>
-                  <p className="font-medium text-base ">{team}</p>
+                  className={`w-full backdrop-blur-sm bg-opacity-90 max-sm:w-full p-4 flex flex-col md:flex-row gap-4  items-end justify-center rounded-lg drop-shadow-md shadow-lg ${teamColors[team]}`}>
+                  <h1 className="text-4xl font-bold">{points}</h1>
+                  <p className="font-medium text-2xl ">{team}</p>
                 </div>
                 </>
               ))}
