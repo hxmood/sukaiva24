@@ -164,34 +164,51 @@ const page = () => {
         </div>
       </section>
 
-      <div className="flex flex-col gap-5 py-24 mt-4 text-center w-full px-3 md:px-10 lg:px-10 xl:px-36">
-        <h2 className="font-bold text-[#1d2c55] text-3xl xl:text-4xl">
-          Theme of 23
-        </h2>
-        <h1 className=" text-lg font-medium ">
-          "Unveiling the Canvas of India's Past: Join us on a journey through
-          the vibrant strokes of history, as we bring to life the artistry that
-          encapsulates India's rich tapestry of historical discriminations.
-          Through the medium of art, we explore the stories, struggles, and
-          resilience of our nation, painting a vivid picture of the past to
-          inspire a brighter future."
+      <div className="flex flex-col md:flex-row gap-5 py-24 mt-4 text-center w-full px-3 md:px-10 lg:px-10 xl:px-36 items-center">
+        <div className="w-full md:w-1/2 justify-center flex">
+        <Image src={'https://res.cloudinary.com/dc9tcbi7s/image/upload/v1730620570/Asset_1_ptrs4u.png'} width={0} height={0} sizes="100vw"
+        className="w-1/2 h-fit" alt="typo" />
+        </div>
+        <div className="flex flex-col items-center md:items-start justify-center md:justify-start md:w-1/2" >
+          <p className="text-[60px] opacity-[10%] font-bold">The Moto</p>
+        <h1 className=" text-sm font-medium w-full md:text-start text-center p-4">
+        In the heart of Kerala, a legacy was born. A legacy not just of words, but of wisdom. The footprints of our scholars, giants like Sheikh Zainudhin Maqdoum and those who followed, carved a path that we walk today. They were the torchbearers of truth, guardians of knowledge, and the light that illuminated our traditions.
+This is the story of ‘Sucaiva’—a journey that traces the imprints of our esteemed Sunni Muslim scholars. It is more than a festival; it is a resolution, a movement to honor and remember the heritage of Islamic knowledge they left behind.
+In their dedication, we see our mission. In their wisdom, we find our direction. Sucaiva calls us to rise, to learn, and to continue their journey, carrying the torch of knowledge forward.
+Let us celebrate their legacy, revive their traditions, and keep the flame alive.
         </h1>
+        </div>
       </div>
 
+<div className="flex flex-col gap-4 justify-center items-center text-center">
+
+  <p className="text-[60px] opacity-[10%] font-bold">From the lens</p>
+
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pb-16 px-3 md:px-10 lg:px-10 xl:px-36">
-        <img
-          src="/images/Poster1.jpeg"
-          className="object-cover h-full w-full rounded-md"
+        <Image
+          src={'https://res.cloudinary.com/dc9tcbi7s/image/upload/v1730622018/6140861270098820137_121_qhgkiu.jpg'}
+          width={0}
+          height={0}
+          sizes="100vw"
+          className="w-fit h-fit rounded"
         />
-        <img
-          src="/images/Poster2.jpeg"
-          className="object-cover h-full w-full rounded-md"
+        <Image
+          src={'https://res.cloudinary.com/dc9tcbi7s/image/upload/v1730622018/6140861270098820134_121_aezmnv.jpg'}
+          width={0}
+          height={0}
+          sizes="100vw"
+          className="w-fit h-fit rounded"
         />
-        <img
-          src="/images/Poster3.jpeg"
-          className="object-cover h-full w-full rounded-md"
+        <Image
+          src={'https://res.cloudinary.com/dc9tcbi7s/image/upload/v1730622022/6140861270098820135_121_gajjth.jpg'}
+          width={0}
+          height={0}
+          sizes="100vw"
+          className="w-fit h-fit rounded"
         />
+        
       </div>
+</div>
 
       <footer className="px-5 md:px-10 lg:px-10 xl:px-36 w-full sm:max-w-full bg-[#151622] flex flex-col items-center justify-center">
         <h1 className="text-white mt-8 font-semibold text-sm">Get connected</h1>

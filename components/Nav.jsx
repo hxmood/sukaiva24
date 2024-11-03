@@ -18,7 +18,7 @@ const Nav = () => {
   return (
     <>
 
-    <div className='w-full py-2 px-6 md:px-8 lg:px-24 xl:px-36 flex justify-between items-center sticky top-0 z-20 bg-green-50'>
+    <div className='w-full py-2 px-6 md:px-8 lg:px-24 xl:px-36 flex justify-between items-center sticky top-0 z-20 bg-yellow-50 shadow-md'>
         <Link href='/' className='p-4 rounded-lg relative flex gap-4 items-center'>
           <Image src={logo} width={50}/>
           <p className='max-w-[1rem] font-medium text-xs leading-3 '>Ahlussuffa Literary Festival</p>
