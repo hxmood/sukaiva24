@@ -65,7 +65,7 @@ export const names = {
     "AFSAL",
     "MUHAMMAD IYYAD",
     "NOUFAL VKD",
-    "SINAN NEW",
+    "SINAN MAJEED",
   ],
   "Y zone": [
     "SHURAHBEEL",
