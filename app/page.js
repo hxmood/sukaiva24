@@ -82,53 +82,6 @@ const page = () => {
         </div>
         
       </div>
-      {/* <div className="w-full h-[87vh] bg-[#fff9ed] flex">
-        <div className="px-6 md:px-8 lg:px-24 xl:px-36 w-full">
-        <div className="basis-1/2 p-4">
-        <div>
-          <h1 className="text-5xl font-bold">Suffa Mehfil 2k24</h1>
-          <h1 className="text-3xl">Sukaiva</h1>
-          <h1 className="">the literary festival of Ahlussuffa</h1>
-        </div>          
-        </div>
-        <div className="basis-1/2 bg-green-500">
-        <Image src={}/>
-        </div>
-        </div> */}
-        
-       
-      {/* </div> */}
-      {/* <div className="px-5 md:px-10 lg:px-10 xl:px-36 relative text-center w-full h-screen flex flex-col gap-5 items-center justify-center mt-10 animated">
-        <h1 className="flex flex-col text-center gap-1 xl:gap-2">
-          <span className="text-[#3333cc] font-extrabold text-5xl lg:text-6xl xl:text-8xl">
-            Suffa Mehfil
-          </span>
-          <span className="font-bold  capitalize text-3xl xl:text-4xl">
-            literary festival 10th edition
-          </span>
-          <span className="text-lg lg:text-xl pt-2 font-normal italic">
-            "the past speaks listen closely"
-          </span>
-        </h1>
-        <button className="bg-[#109101] rounded-md flex px-4 py-3 text-white">
-          <a
-            className="flex items-center"
-            target="_blank"
-            href="https://youtube.com"
-          >
-            <YouTube />
-            <span className="ml-1"> Watch live</span>
-          </a>
-        </button>
-        <div className="pt-16 ">
-          <button onClick={scrolltoteam}>
-            <KeyboardArrowDownIcon
-              fontSize="large"
-              className="rounded-full p-1 animate-bounce transition-all duration-500 bg-white"
-            />
-          </button>
-        </div>
-      </div> */}
 
       <section id="teamStats" className="px-5 md:px-10 lg:px-10 xl:px-36 flex flex-col w-full justify-center items-center relative bg-green-700 text-white">
         <div className=" flex w-full flex-col mt-8">
@@ -170,7 +123,7 @@ const page = () => {
         className="w-1/2 h-fit" alt="typo" />
         </div>
         <div className="flex flex-col items-center md:items-start justify-center md:justify-start md:w-1/2" >
-          <p className="text-[60px] opacity-[10%] font-bold">The Moto</p>
+          <p className="text-[60px] opacity-[10%] font-bold">The Motto</p>
         <h1 className=" text-sm font-medium w-full md:text-start text-center p-4">
         In the heart of Kerala, a legacy was born. A legacy not just of words, but of wisdom. The footprints of our scholars, giants like Sheikh Zainudhin Maqdoum and those who followed, carved a path that we walk today. They were the torchbearers of truth, guardians of knowledge, and the light that illuminated our traditions.
 This is the story of ‘Sucaiva’—a journey that traces the imprints of our esteemed Sunni Muslim scholars. It is more than a festival; it is a resolution, a movement to honor and remember the heritage of Islamic knowledge they left behind.
@@ -225,12 +178,12 @@ Let us celebrate their legacy, revive their traditions, and keep the flame ali
           <a href="/">
             <Language fontSize="medium" />
           </a>
-          <a href="/">
+          <a href="https://www.youtube.com/@ahlussuffadars">
             <YouTube fontSize="medium" />
           </a>
         </div>
         <h1 className="text-gray-100 mt-4 mb-2">
-          <span>&copy;</span> Muhammad Hameed - 2023
+          <span>&copy;</span> Suffa developers - 2024
         </h1>
       </footer>
       <ScrollToTop
