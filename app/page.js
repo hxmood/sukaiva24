@@ -62,11 +62,11 @@ const page = () => {
             <div className="flex gap-2 pt-2 mt-4">
               <div className="flex items-center p-1.5 px-2.5 bg-green-700 text-white font-semibold rounded-md gap-1 text-base">
               <FaYoutube />
-              <Link className="" href="https://www.youtube.com/live/aTisNojTWKQ?si=NjG9gtivMATIqEfY">Watch live</Link>
+              <Link className="" href="https://www.youtube.com/live/gimh1IPVMbM?si=qHWG8HiDLpVPa184">Watch live</Link>
               </div>
               <div className="flex items-center p-1.5 px-2.5 bg-green-700 text-white font-semibold rounded-md gap-1 text-base">
               <FaGlobe />
-              <Link className="" href={''}>Explore us</Link>
+              <Link className="" href='https://www.ahlussuffadars.in/'>Explore us</Link>
               </div>
               
 

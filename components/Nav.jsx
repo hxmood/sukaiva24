@@ -45,7 +45,7 @@ const Nav = () => {
                   <FaArrowRight className='text-green-500'/>
                   <h2>Home</h2>
                 </Link>
-                <Link href="/about" className='text-lg border-b-2 py-2 flex items-center gap-4 duration-150 hover:pl-2 hover:font-bold' onClick={handleClick}>
+                <Link href="https://www.ahlussuffadars.in/" className='text-lg border-b-2 py-2 flex items-center gap-4 duration-150 hover:pl-2 hover:font-bold' onClick={handleClick}>
                   <FaArrowRight className='text-green-500'/>
                   <h2>About</h2>
                 </Link>
