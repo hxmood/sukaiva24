@@ -62,11 +62,11 @@ const page = () => {
             <div className="flex gap-2 pt-2 mt-4">
               <div className="flex items-center p-1.5 px-2.5 bg-green-700 text-white font-semibold rounded-md gap-1 text-base">
               <FaYoutube />
-              <Link className="" href="https://www.youtube.com/live/aTisNojTWKQ?si=NjG9gtivMATIqEfY">Watch live</Link>
+              <Link className="" href="https://www.youtube.com/live/gimh1IPVMbM?si=qHWG8HiDLpVPa184">Watch live</Link>
               </div>
               <div className="flex items-center p-1.5 px-2.5 bg-green-700 text-white font-semibold rounded-md gap-1 text-base">
               <FaGlobe />
-              <Link className="" href={''}>Explore us</Link>
+              <Link className="" href='https://www.ahlussuffadars.in/'>Explore us</Link>
               </div>
               
 
@@ -82,53 +82,6 @@ const page = () => {
         </div>
         
       </div>
-      {/* <div className="w-full h-[87vh] bg-[#fff9ed] flex">
-        <div className="px-6 md:px-8 lg:px-24 xl:px-36 w-full">
-        <div className="basis-1/2 p-4">
-        <div>
-          <h1 className="text-5xl font-bold">Suffa Mehfil 2k24</h1>
-          <h1 className="text-3xl">Sukaiva</h1>
-          <h1 className="">the literary festival of Ahlussuffa</h1>
-        </div>          
-        </div>
-        <div className="basis-1/2 bg-green-500">
-        <Image src={}/>
-        </div>
-        </div> */}
-        
-       
-      {/* </div> */}
-      {/* <div className="px-5 md:px-10 lg:px-10 xl:px-36 relative text-center w-full h-screen flex flex-col gap-5 items-center justify-center mt-10 animated">
-        <h1 className="flex flex-col text-center gap-1 xl:gap-2">
-          <span className="text-[#3333cc] font-extrabold text-5xl lg:text-6xl xl:text-8xl">
-            Suffa Mehfil
-          </span>
-          <span className="font-bold  capitalize text-3xl xl:text-4xl">
-            literary festival 10th edition
-          </span>
-          <span className="text-lg lg:text-xl pt-2 font-normal italic">
-            "the past speaks listen closely"
-          </span>
-        </h1>
-        <button className="bg-[#109101] rounded-md flex px-4 py-3 text-white">
-          <a
-            className="flex items-center"
-            target="_blank"
-            href="https://youtube.com"
-          >
-            <YouTube />
-            <span className="ml-1"> Watch live</span>
-          </a>
-        </button>
-        <div className="pt-16 ">
-          <button onClick={scrolltoteam}>
-            <KeyboardArrowDownIcon
-              fontSize="large"
-              className="rounded-full p-1 animate-bounce transition-all duration-500 bg-white"
-            />
-          </button>
-        </div>
-      </div> */}
 
       <section id="teamStats" className="px-5 md:px-10 lg:px-10 xl:px-36 flex flex-col w-full justify-center items-center relative bg-green-700 text-white">
         <div className=" flex w-full flex-col mt-8">
